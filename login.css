@@ -1,0 +1,243 @@
+/*=====================================================
+            LOGIN M🧇ila-grosas
+======================================================*/
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background:linear-gradient(
+        180deg,
+        #FFF7F0,
+        #FFE7B3
+    );
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:20px;
+
+}
+
+.login-container{
+
+    width:430px;
+
+    background:#FFFFFF;
+
+    padding:40px;
+
+    border-radius:25px;
+
+    border:3px solid #FFD200;
+
+    box-shadow:0 15px 35px rgba(230,0,18,.15);
+
+    text-align:center;
+
+}
+
+.logo{
+
+    width:180px;
+
+    margin-bottom:20px;
+
+    transition:.3s;
+
+}
+
+.logo:hover{
+
+    transform:scale(1.05);
+
+}
+
+h1{
+
+    color:#E60012;
+
+    margin-bottom:10px;
+
+    font-size:28px;
+
+    font-weight:900;
+
+}
+
+.subtitulo{
+
+    color:#FF8C00;
+
+    margin-bottom:30px;
+
+    font-size:18px;
+
+}
+
+.formulario{
+
+    text-align:left;
+
+}
+
+.formulario label{
+
+    display:block;
+
+    margin-top:15px;
+
+    margin-bottom:8px;
+
+    font-weight:700;
+
+    color:#E60012;
+
+}
+
+.formulario input,
+.formulario select{
+
+    width:100%;
+
+    padding:12px;
+
+    border:2px solid #FFD200;
+
+    border-radius:12px;
+
+    font-size:16px;
+
+    background:#FFFFFF;
+
+    transition:.3s;
+
+}
+
+.formulario input:focus,
+.formulario select:focus{
+
+    outline:none;
+
+    border-color:#E60012;
+
+    box-shadow:0 0 10px rgba(230,0,18,.20);
+
+}
+
+.recordar{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin-top:20px;
+
+}
+
+.recordar input{
+
+    width:18px;
+
+    height:18px;
+
+}
+
+.recordar label{
+
+    margin:0;
+
+    color:#333333;
+
+}
+
+button{
+
+    width:100%;
+
+    margin-top:30px;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:15px;
+
+    background:#E60012;
+
+    color:#FFFFFF;
+
+    font-size:18px;
+
+    font-weight:800;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#FFD200;
+
+    color:#000000;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 8px 20px rgba(255,210,0,.30);
+
+}
+
+.footer{
+
+    margin-top:30px;
+
+    color:#6B7280;
+
+    font-size:14px;
+
+    font-weight:500;
+
+}
+
+@media(max-width:500px){
+
+    .login-container{
+
+        width:100%;
+
+        padding:30px 20px;
+
+    }
+
+    .logo{
+
+        width:150px;
+
+    }
+
+    h1{
+
+        font-size:24px;
+
+    }
+
+}

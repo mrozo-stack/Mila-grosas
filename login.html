@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>DRINK THIS - Inicio de Sesión</title>
+
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+
+<div class="login-container">
+
+    <!-- LOGO -->
+
+    <img src="logo.png"
+         class="logo"
+         alt="SpicyRush">
+
+    <h1>DRINK THIS</h1>
+
+    <p class="subtitulo">
+
+        Sistema de Gestión de Ventas
+
+    </p>
+
+    <!-- FORMULARIO -->
+
+    <div class="formulario">
+
+        <label>
+
+            Usuario
+
+        </label>
+
+        <input
+            type="text"
+            id="usuario"
+            placeholder="Ingrese el usuario">
+
+        <label>
+
+            Contraseña
+
+        </label>
+
+        <input
+            type="password"
+            id="clave"
+            placeholder="Ingrese la contraseña">
+
+        <label>
+
+            Cargo
+
+        </label>
+
+        <select id="rol">
+
+            <option value="cajero">
+
+                👨‍💼 Cajero
+
+            </option>
+
+            <option value="admin">
+
+                👑 Administrador
+
+            </option>
+
+        </select>
+
+        <div class="recordar">
+
+            <input
+                type="checkbox"
+                id="recordar">
+
+            <label for="recordar">
+
+                Recordar usuario
+
+            </label>
+
+        </div>
+
+        <button onclick="iniciarSesion()">
+
+            INGRESAR
+
+        </button>
+
+    </div>
+
+    <div class="footer">
+
+        Versión 4.0
+
+    </div>
+
+</div>
+
+<script src="js/login.js"></script>
+
+</body>
+
+</html>
